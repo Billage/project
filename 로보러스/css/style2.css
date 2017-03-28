@@ -21,7 +21,7 @@ header {overflow: hidden;width: 100%;margin: auto;position: fixed;z-index: 1 ;ov
 h1 {width: 250px;float: left;}
 .gnb{width: 700px;text-align: center;overflow: hidden;float: right;font-size: 1em;}
 .gnb>li{float: left;width: 16%;}
-.sub_wrap {top: 0;overflow:hidden; z-index:100; width:100%; position: relative;}
+.sub_wrap {top: 0;overflow:hidden; z-index:100; width:100%; position: relative;font-size: 0.7em;}
 .sub {width: 700px;margin: auto;float: right;}
 .sub ul {float: left;width: 16%;z-index: 100}
 .sub ul li{width: 16%;padding: 1%}
