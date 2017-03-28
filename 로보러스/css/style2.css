@@ -1,5 +1,5 @@
 @charset "utf-8";
-@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+/*@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);*/
 /* reset element */
 html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, address, dl, dt, dd, ol, ul, li, fieldset, form, legend, table, caption, tbody, tfoot, thead, tr, th, td, input, select, textarea { margin:0; padding:0; font-family: 'Nanum Gothic', sans-serif; }
 h1, h2, h3, h4, h5, h6 { font-size:100%; }
@@ -12,17 +12,19 @@ input, select, textarea, form img { vertical-align:middle; }
 a{text-decoration: none;color: #222;}
 a:visited{text-decoration: none;color: #222;}
 a:link{text-decoration: none; color: #222;}
-a:hover {color: #ccc;}
+a:hover {color: #222;}
 
 
 /*header*/
-header {overflow: hidden;width: 100%;margin: auto;position: fixed;z-index: 1 ;overflow: hidden;background: #fff;}
+header {overflow: hidden;width: 100%;margin: auto;position: fixed;left: 0;top: 0;z-index: 1 ;overflow: hidden;background: #fff;}
 header h2,header h3{position: absolute;top: -9999px;left: -9999px;}
 h1 {width: 250px;float: left;}
-.gnb{width: 700px;text-align: center;overflow: hidden;float: right;font-size: 1.1em;}
-.gnb>li{float: left;width: 16%;}
-.sub_wrap {top: 0;overflow:hidden; z-index:100; width:100%; position: relative;font-size: 0.8em;}
-.sub {width: 700px;margin: auto;float: right;}
-.sub ul {float: left;width: 20%;z-index: 100;opacity: 0.7;}
+.gnb{width: 900px;text-align: center;overflow: hidden;float: right;font-size: 1.1em;padding: 15px 0;}
+.gnb>li{float: left;width: 20%;}
+.sub_wrap { z-index:100; width:100%; font-size: 0.8em;text-align: center;}
+.sub {width: 900px; margin: auto;float: right;overflow: hidden;}
+.sub ul {float: left;width: 20%;z-index: 100;opacity: 0.7;padding-top: 30px;}
+.sub ul li {line-height: 2em;}
+.sub ul li:hover {opacity: 1;font-weight: bold;}
 .active {opacity: 1;}
 main {height: 100%;padding-top: 40px;}
