@@ -16,7 +16,7 @@ a:hover {color: #222;}
 
 
 /*header*/
-header {width: 100%;margin: auto;position: fixed;left: 0;top: 0;z-index: 100 ;background: #fff;fz}
+header {width: 100%;margin: auto;position: fixed;left: 0;top: 0;z-index: 100 ;background: #fff;}
 header h2,header h3{position: absolute;top: -9999px;left: -9999px;}
 .web {width: 1280px;margin: auto;height: 53px;}
 h1 {width: 250px;float: left;}
