@@ -18,14 +18,36 @@ a:hover {color: #222;}
 /*header*/
 header {overflow: hidden;width: 100%;margin: auto;position: fixed;left: 0;top: 0;z-index: 1 ;overflow: hidden;background: #fff;}
 header h2,header h3{position: absolute;top: -9999px;left: -9999px;}
+.web {width: 1280px;margin: auto;overflow: hidden;}
+.web_box{overflow: hidden;}
 h1 {width: 250px;float: left;}
-.gnb{width: 900px;text-align: center;overflow: hidden;float: right;font-size: 1.1em;padding: 15px 0;}
-.gnb>li{float: left;width: 20%;}
-.gnb span {	position: absolute;	bottom: -42px;	display: block;	width: 25%;	height: 2px;background: black;}
-.sub_wrap { z-index:100; width:100%; font-size: 0.8em;text-align: center;}
-.sub {width: 900px; margin: auto;float: right;overflow: hidden;}
-.sub ul {float: left;width: 20%;z-index: 100;opacity: 0.7;padding-top: 30px;}
-.sub ul li {line-height: 2em;}
-.sub ul li:hover {opacity: 1;font-weight: bold;}
+.gnb{width: 900px;text-align: center;overflow: hidden;float: right;font-size: 1em;}
+.gnb > li{float: left;width: 20%;padding: 15px 0;position: relative;overflow: hidden;}
+.gnb li a {display: block;}
+.gnb li:hover {border-bottom: 2px solid #0081cb;}
+.gnb li:hover a {color: #0081cb;}
+.gnb li:hover li {border-bottom: none;}
+.gnb li:hover li a {color: #333;}
 .active {opacity: 1;}
+.gnb li ul {
+    position: absolute;
+    left: 0;top: 0;
+    padding-top: 11px;
+    height: 200px;
+    background-color: #FFF;
+    border-left: 1px solid #e6e9ed;
+}
+.gnb li:first-child ul {
+    border-left: none;
+}
+
+.gnb li li a {
+    font-size: 0.8em;
+    font-weight: normal;
+    padding: 7px 30px;
+    text-align: center;
+    display: block;
+}
+.on {border-top: 1px solid black;}
+
 main {height: 100%;padding-top: 40px;}
