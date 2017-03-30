@@ -1,0 +1,5 @@
+@media screen and (max-width:1024px) {
+  .web{display: none;}
+  .mobile{display: block;}
+  .header_bg{display: none;}
+}
