@@ -3,6 +3,6 @@
   .mobile{display: block;}
   .header_bg{display: none;}
   .m_gnb>li{font-weight: bold;}
-  .m_gnb li ul {background: lightgray;}
-  .m_gnb li.on ul{display: block;}
+  .m_gnb li ul {background: lightgray;display: none;}
+  .m_gnb li.on ul {display: block;}
 };
