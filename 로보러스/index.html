@@ -21,12 +21,10 @@
                     $('.gnb li ul, .header_bg').stop().slideToggle(100);
                 }
             );
-            $('.m_gnb>li').click(
-                function() {
-                      $('ul',this).stop().slideToggle(100);
-                }
-            );
-        })
+            $('.m_gnb>li').on('click','m_gnb>li',function(){
+              $(this).closet('ul').toggleClass('on').siblings().removeClass('on')
+            });
+        });
     </script>
 
 </head>
@@ -101,7 +99,7 @@
                     <h2>주요메뉴</h2>
                     <ul class="m_gnb">
                         <li><a href="#">회사소개</a>
-                            <ul class="m_intro">
+                            <ul class="m_intro on">
                                 <li><a href="#">인사말</a></li>
                                 <li><a href="#">회사의 비전</a></li>
                                 <li><a href="#">채용정보</a></li>
