@@ -2,6 +2,7 @@
   .web{display: none;}
   .mobile{display: block;}
   .header_bg{display: none;}
+  .mobile_box{width: 250px;transition: .3s;position: fixed;right: -300px;bottom: 0;top: 0;display: none;}
   .m_gnb>li{font-weight: bold;}
   .m_gnb li ul {background: lightgray;display: none;}
   .m_gnb a {display: block;}
