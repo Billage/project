@@ -1,0 +1,26 @@
+@charset "utf-8";
+/*@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);*/
+/* reset element */
+html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, address, dl, dt, dd, ol, ul, li, fieldset, form, legend, table, caption, tbody, tfoot, thead, tr, th, td, input, select, textarea { margin:0; padding:0; font-family: 'Nanum Gothic', sans-serif; }
+html,body{width:100%;height:100%;}
+h1, h2, h3, h4, h5, h6 { font-size:100%; }
+img, fieldset { border:none; }
+table { border-collapse:collapse; }
+ul, ol, li { list-style:none; }
+address, em { font-style:normal; }
+li img, object { vertical-align:top; }
+input, select, textarea, form img { vertical-align:middle; }
+a{text-decoration: none;color: #222;}
+a:visited{text-decoration: none;color: #222;}
+a:link{text-decoration: none; color: #222;}
+a:hover {color: #222;}
+
+/*header*/
+header {width: 1200px;margin: auto;position: relative;}
+header::after {content: '';clear: both;display: block;}
+h1{position: absolute;}
+.gnb {width: 700px;margin: auto;}
+.gnb::after {content: '';clear: both;display: block;}
+.gnb>li{float: left;width: 20%;}
+.tnb {font-size: 0.7em;width: 150px;float: right;;}
+.tnb li {float: left;width: 50%;}
