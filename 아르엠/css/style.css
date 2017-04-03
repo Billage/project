@@ -16,11 +16,12 @@ a:link{text-decoration: none; color: #222;}
 a:hover {color: #222;}
 
 /*header*/
+body {background: url('../images/bg.gif') repeat-x;}
 header {width: 1200px;margin: auto;position: relative;}
 header::after {content: '';clear: both;display: block;}
-h1{position: absolute;}
-.gnb {width: 700px;margin: auto;}
+h1{position: absolute;left: 0;top: 0;}
+.gnb {width: 700px;margin: auto;padding-top: 46px;}
 .gnb::after {content: '';clear: both;display: block;}
 .gnb>li{float: left;width: 20%;}
-.tnb {font-size: 0.7em;width: 150px;float: right;;}
+.tnb {font-size: 0.7em;width: 150px;position: absolute;right: 0;top: 0;padding-top: 45px;}
 .tnb li {float: left;width: 50%;}
