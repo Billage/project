@@ -44,170 +44,132 @@ h1 {float: left;padding-top: 8px;}
 .top_menu {position: absolute;right: 0;top: 20px;}
 
 /*content*/
-main {height: 100%;padding-top: 40px;}
-
-
-.slide{
-	background-attachment: fixed;
-	width:100%;
-	height:100%;
-	position: relative;
-	box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);
-}
-.wrapper{
-	width:960px;
-	height:200px;
-	margin:0 auto;
-	position:relative;
-}
-.slideno{
-	position:absolute;
-	bottom:0px;
-	left:0px;
-	font-size:100px;
-	font-weight:bold;
-	color:rgba(255,255,255,0.3);
-}
-.button{
-	display:block;
-	width:50px;
-	height:50px;
-	position:absolute;
-	bottom:0px;
-	left:50%;
-	background-color:#333333;
-	background-image:url(../images/arrow.png);
-}
-.button:hover{
-	background-color:#494949;
-	cursor:pointer;
+main {
+    height: 100%;
+    padding-top: 45px;
 }
 
+.slide {
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+.slide h2 {font-size: 3em;line-height: 1.5em;font-family: 'Noto Sans KR';}
+
+.slide p {font-size: 1.5em;line-height: 1.5em;font-family: 'Noto Sans KR';}
+
+.slide_content {
+    width: 45%;
+}
+
+.slideno {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    font-size: 100px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.3);
+}
+.highlight {font-weight: bold;}
 /******************************
  SLIDE 1
 *******************************/
-#slide1{
-  background-image:url('../images/slide1.jpg');
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
 
+#slide1 {
+    background-image: url('../img/slide1.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #444
 }
+#slide1 .slide_content {
+  position: absolute;top: 35%;left: 10%;
+}
+#slide1 p {
+  padding-top: 5%;font-size: 1.2em;color: #444
+}
+#slide1 p span {display: block;}
+
 /******************************
  SLIDE 2
 *******************************/
-#slide2{
-  background-image:url('../images/slide2.jpg');
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+
+#slide2 {
+    background-image: url('../img/slide2.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #444;
 }
-#slide2 img:first-child{
-	position:absolute;
-top: 700px;
-left: -150px;
+
+#slide2 .slide_content {
+  position: absolute;top: 40%;right: 0;
 }
-#slide2 img:nth-child(2){
-	position:absolute;
-	top:300px;
-	left:100px;
+#slide2 p {
+  padding-top: 5%;font-size: 1.2em;color: #444
 }
-#slide2 img:nth-child(3){
-	position:absolute;
-	top:600px;
-	left:300px;
-}
-#slide2 img:nth-child(4){
-	position:absolute;
-	top:400px;
-	left:300px;
-}
-#slide2 img:nth-child(5){
-	position:absolute;
-	top:600px;
-	right:300px;
-}
-#slide2 img:nth-child(6){
-	position:absolute;
-	top:600px;
-	right:300px;
-}
-#slide2 img:nth-child(7){
-	position:absolute;
-	top:400px;
-	right:100px;
-}
-#slide2 img:nth-child(8){
-	position:absolute;
-	top:100px;
-	right:300px;
-}
+#slide2 p span {display: block;}
+
+
 /******************************
  SLIDE 3
 *******************************/
-#slide3{
-  background-image:url('../images/slide3.jpg');
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+
+#slide3 {
+    background-image: url('../img/slide3.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff
 }
-#slide3 img:first-child{
-	position:absolute;
-top: 700px;
-left: 300px;
+
+#slide3 .slide_content {
+  position: absolute;top: 35%;left: 10%;
 }
-#slide3 img:nth-child(2){
-	position:absolute;
-	top:100px;
-	left:100px;
+#slide3 p {
+  padding-top: 5%;font-size: 1.2em;color: #fff
 }
-#slide3 img:nth-child(3){
-	position:absolute;
-	top:150px;
-	left:300px;
-}
-#slide3 img:nth-child(4){
-	position:absolute;
-	top:450px;
-	left:300px;
-}
-#slide3 img:nth-child(5){
-	position:absolute;
-	top:200px;
-	right:300px;
-}
-#slide3 img:nth-child(6){
-	position:absolute;
-	top:100px;
-	right:300px;
-}
+#slide3 p span {display: block;}
+
+
 /******************************
  SLIDE 4
 *******************************/
 
-#slide4{
-	background-image:url('../images/slide4.jpg');
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-#slide4 .parallaxbg{
-	position:absolute;
-	right:40px;
-	top:40px;
-	font-size:28px;
-	color:rgba(51,51,51,0.3);
+#slide4 {
+    background-image: url('../img/slide4.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-#slide5{
-  background-image:url('../images/slide5.jpg');
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-
+#slide4 .slide_content {
+  position: absolute;top: 33%;right: 9%;text-align: right;color: #fff
 }
+#slide4 p {
+  padding-top: 5%;font-size: 1.2em;color: #fff
+}
+#slide4 p span {display: block;}
+
+
+#slide5 {
+    background-image: url('../img/slide5.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#slide5 .slide_content {
+  position: relative;margin: auto;text-align: center;color: #fff;top: 35%;
+}
+#slide5 p {
+  padding-top: 5%;font-size: 1.2em;color: #fff
+}
+#slide5 p span {display: block;}

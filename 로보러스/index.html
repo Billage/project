@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,8 +22,8 @@
                     $('.gnb li ul, .header_bg').stop().slideToggle(100);
                 }
             );
-            $('.m_gnb>li').click(function(){
-              $(this).find('ul').slideToggle(100).end().siblings().find('ul').slideUp(100);
+            $('.m_gnb>li').click(function() {
+                $(this).find('ul').slideToggle(100).end().siblings().find('ul').slideUp(100);
             });
         });
     </script>
@@ -32,7 +33,7 @@
 <body>
     <header>
         <nav>
-          <h1><a href="index.html"><img src="images/logo.png" alt="로보러스"></a></h1>
+            <h1><a href="index.html"><img src="images/logo.png" alt="로보러스"></a></h1>
             <div class="web">
                 <div class="web_box">
                     <h2>주요메뉴</h2>
@@ -158,43 +159,54 @@
     </header>
     <main>
         <div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5">
-            <a class="button" data-slide="2" title=""></a>
+            <div class="slide_content">
+                <h2>당신의 행복을 완성하는 <br>감성지능 <span class="highlight">로보러스</span></h2>
+                <p class="slide_txt">
+                    <span>감성지능 로봇을 통한</span>
+                    <span>사용자 맞춤형 라이프 시스템</span>
+                </p>
+            </div>
         </div>
         <!--End Slide 1-->
-        <div class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="0.5">
-            <div class="wrapper">
-                <img src="images/blur-ball.png" data-stellar-ratio="3" data-stellar-vertical-offset="-55" alt="">
-                <img src="images/blur-ball-big.png" data-stellar-ratio="1" data-stellar-vertical-offset="-102" alt="">
-                <img src="images/focus-ball.png" data-stellar-ratio="1.5" data-stellar-vertical-offset="-53" alt="">
-                <img src="images/small-ball.png" data-stellar-ratio="2.7" data-stellar-vertical-offset="-25" alt="">
-                <img src="images/blur-ball.png" data-stellar-ratio="3" data-stellar-vertical-offset="-55" alt="">
-                <img src="images/blur-ball-big.png" data-stellar-ratio="1" data-stellar-vertical-offset="-102" alt="">
-                <img src="images/focus-ball.png" data-stellar-ratio="1.5" data-stellar-vertical-offset="-53" alt="">
-                <img src="images/small-ball.png" data-stellar-ratio="2.7" data-stellar-vertical-offset="-25" alt="">
+        <div class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="0">
+            <div class="slide_content">
+                <h2><span class="highlight">감성형</span> AI 인터렉티브</h2>
+                <p class="slide_txt">
+                    <span>사용자의 표정과 목소리를 인지하는</span>
+                    <span>감성지능형 인터페이스 지원</span>
+                </p>
             </div>
-            <span class="slideno">Slide 2</span>
-            <a class="button" data-slide="3" title=""></a>
         </div>
         <!--End Slide 2-->
-        <div class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0.5">
-            <div class="wrapper">
-                <img src="images/freelance.png" data-stellar-ratio="1.4" data-stellar-vertical-offset="-102" alt="">
-                <img src="images/psdtuts.png" data-stellar-ratio="1.5" data-stellar-vertical-offset="-53" alt="">
-                <img src="images/rockable.png" data-stellar-ratio="2.7" data-stellar-vertical-offset="-200" alt="">
-                <img src="images/themeforest.png" data-stellar-ratio="1" data-stellar-vertical-offset="-200" alt="">
-                <img src="images/tutshub.png" data-stellar-ratio="1" data-stellar-vertical-offset="-200" alt="">
-                <img src="images/psdtuts.png" data-stellar-ratio="1.5" data-stellar-vertical-offset="-200" alt="">
+        <div class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0">
+            <div class="slide_content">
+                <h2>IoT 연동<span class="highlight">로봇카페</span> 서비스</h2>
+                <p class="slide_txt">
+                    <span>카페 매장내의 조명&middot;온도&middot;공기정화 관리는 물론,</span>
+                    <span>직원들의 출퇴근과 업무관리 및 POS 연동을 통한 재고 관리까지</span>
+                </p>
             </div>
-            <span class="slideno">Slide 3</span>
-            <a class="button" data-slide="4" title=""></a>
         </div>
         <!--End Slide 3-->
         <div class="slide" id="slide4" data-slide="4" data-stellar-background-ratio="0">
-            <span class="slideno">Slide 4</span>
-            <span class="parallaxbg">Use the parallax effects on background images too!</span>
-            <a class="button" data-slide="1" title=""></a>
+            <div class="slide_content">
+                <h2><span class="highlight">컨시어지 DB 분석과 머신러닝</span></h2>
+                <p class="slide_txt">
+                    <span>사용자의 DB축적과 분석 및</span>
+                    <span>최적화를 통한 맞춤형 정보제공</span>
+                </p>
+            </div>
         </div>
         <!--End Slide 4-->
+        <div class="slide" id="slide5" data-slide="5" data-stellar-background-ratio="0">
+            <div class="slide_content">
+                <h2>보다 빠르고 편리하게 <br>인공지능형<span class="highlight">마케팅 자동화</span></h2>
+                <p class="slide_txt">
+                    <span>사용자의 표정과 목소리를 인지하는</span>
+                    <span>감성지능형 인터페이스 지원</span>
+                </p>
+            </div>
+        </div>
     </main>
     <footer>
         <p class="copyright">Copyright(c) tongroimages ROBORUS. all rights reseved.</p>
