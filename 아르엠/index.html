@@ -1,28 +1,82 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>DFSK KOREA</title>
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DFSK KOREA</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
+
 <body>
-  <header>
-    <h1><a href="#"><img src="images/logo.png" alt="DFSK KOREA"></a></h1>
-    <nav>
-      <ul class="gnb">
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">DFSK</a></li>
-        <li><a href="#">차종</a></li>
-        <li><a href="#">구입안내</a></li>
-        <li><a href="#">서비스</a></li>
-      </ul>
-      <ul class="tnb">
-        <li><a href="#">SITE MAP</a></li>
-        <li><a href="#">CONTACT US</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header>
+        <h1><a href="#"><img src="images/logo.png" alt="DFSK KOREA"></a></h1>
+        <nav>
+            <ul class="gnb">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">DFSK</a></li>
+                <li><a href="#">차종</a></li>
+                <li><a href="#">구입안내</a></li>
+                <li><a href="#">서비스</a></li>
+            </ul>
+            <ul class="tnb">
+                <li><a href="#">SITE MAP</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="images/visual.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/visual2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/visual3.jpg" alt=""></div>
+            ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+    <main>
+        <section class="left">
+            <article class="con1"></article>
+            <article class="con2"></article>
+            <article class="con3"></article>
+        </section>
+        <section class="right">
+            <article class="con4">
+
+            </article>
+        </section>
+    </main>
+    <script src="js/swiper.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+            loop: true
+        });
+    </script>
+    <footer>
+      <div class="f_content">
+        <ul>
+            <li><a href="#">개인정보취급방침</a></li>
+            <li><a href="#">이메일주소무단수집거부</a></li>
+            <li><a href="#">오시는 길</a></li>
+        </ul>
+        <div class="address">
+            <address>
+              서울시 강동구 둔촌동 489-9 전산빌딩 501호
+            </address>
+            <p>TEL : 02-6949-6958 / FAX : 0303-3444-8958 / E-mail : admin@DFSKKorea.com</p>
+        </div>
+      </div>
+    </footer>
 </body>
+
 </html>
