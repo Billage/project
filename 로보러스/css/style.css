@@ -17,20 +17,20 @@ a:hover {color: #222;}
 
 
 /*header*/
-header {width: 100%;margin: auto;position: fixed;left: 0;top: 0;z-index: 100 ;background: #fff;}
+header {width: 100%;margin: auto;position: fixed;left: 0;top: 0;z-index: 100 ;background: #fff;border-bottom: 1px solid #f5f5f5;}
 header h2,header h3{position: absolute;top: -9999px;left: -9999px;}
-.web {width: 90%;margin: auto;height: 53px;position: relative;}
-h1 {float: left;padding-top: 8px;}
+.web {width: 90%;margin: auto;height: 100px;position: relative;}
+h1 {float: left;padding-top: 30px;}
 .gnb{width: 1000px;text-align: center;margin: auto;font-size: 1em;z-index: 99}
 .gnb::after{content: '';clear: both;display: block;}
-.gnb > li{float: left;width: 20%;padding-top:15px;position: relative;}
-.gnb li a {display: inline-block;padding-bottom: 15px;}
+.gnb > li{float: left;width: 20%;padding-top:39px;position: relative;}
+.gnb li a {display: inline-block;padding-bottom: 39px;}
 .gnb>li:hover>a {border-bottom: 2px solid #8dcf3b;}
 .gnb li:hover ul {opacity: 1;}
 .gnb li:hover li {border-bottom: none;}
 .gnb li:hover li a {color: #333;}
 .active {opacity: 1;}
-.gnb li ul { position: absolute;left: 0;top: 55px;padding-top: 60px;height: 180px;border-left: 1px solid #e6e9ed;opacity: 0.7;width: 100%}
+.gnb li ul { position: absolute;left: 0;top: 100px;padding-top: 60px;height: 180px;border-left: 1px solid #e6e9ed;opacity: 0.7;width: 100%}
 .mobile {display: none;}
 .intro {background: url('../images/intro.png') center 15px no-repeat;}
 .area {background: url('../images/area.png') center 15px no-repeat;}
@@ -78,7 +78,7 @@ main {
 *******************************/
 
 #slide1 {
-    background-image: url('../img/slide1.jpg');
+    background-image: url('../images/slide1.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -98,7 +98,7 @@ main {
 *******************************/
 
 #slide2 {
-    background-image: url('../img/slide2.jpg');
+    background-image: url('../images/slide2.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -120,7 +120,7 @@ main {
 *******************************/
 
 #slide3 {
-    background-image: url('../img/slide3.jpg');
+    background-image: url('../images/slide3.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -142,7 +142,7 @@ main {
 *******************************/
 
 #slide4 {
-    background-image: url('../img/slide4.jpg');
+    background-image: url('../images/slide4.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -159,7 +159,7 @@ main {
 
 
 #slide5 {
-    background-image: url('../img/slide5.jpg');
+    background-image: url('../images/slide5.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
