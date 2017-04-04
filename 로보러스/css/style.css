@@ -58,7 +58,7 @@ main {
 }
 .slide h2 {font-size: 3em;line-height: 1.5em;font-family: 'Noto Sans KR';}
 
-.slide p {font-size: 1.5em;line-height: 1.5em;font-family: 'Noto Sans KR';}
+.slide p {font-size: 1.2em;line-height: 1.5em;font-family: 'Noto Sans KR';}
 
 .slide_content {
     width: 45%;
@@ -89,7 +89,7 @@ main {
   position: absolute;top: 35%;left: 10%;
 }
 #slide1 p {
-  padding-top: 5%;font-size: 1.2em;color: #444
+  padding-top: 5%;color: #444
 }
 #slide1 p span {display: block;}
 
@@ -110,7 +110,7 @@ main {
   position: absolute;top: 40%;right: 0;
 }
 #slide2 p {
-  padding-top: 5%;font-size: 1.2em;color: #444
+  padding-top: 5%;color: #444
 }
 #slide2 p span {display: block;}
 
@@ -132,7 +132,7 @@ main {
   position: absolute;top: 35%;left: 10%;
 }
 #slide3 p {
-  padding-top: 5%;font-size: 1.2em;color: #fff
+  padding-top: 5%;color: #fff
 }
 #slide3 p span {display: block;}
 
@@ -153,7 +153,7 @@ main {
   position: absolute;top: 33%;right: 9%;text-align: right;color: #fff
 }
 #slide4 p {
-  padding-top: 5%;font-size: 1.2em;color: #fff
+  padding-top: 5%;color: #fff
 }
 #slide4 p span {display: block;}
 
@@ -170,6 +170,23 @@ main {
   position: relative;margin: auto;text-align: center;color: #fff;top: 35%;
 }
 #slide5 p {
-  padding-top: 5%;font-size: 1.2em;color: #fff
+  padding-top: 5%;color: #fff
 }
 #slide5 p span {display: block;}
+
+@media screen and (max-width:768px){
+  .slide {background-position: center center;text-align: center;}
+  .slide_content {width: 80%;}
+  #slide1 {background-image: url('../images/slide1_m.jpg');background-position: -190px 60px;}
+  #slide1 .slide_content {position: relative;top: 15%}
+  #slide2 {background-image: url('../images/slide2_m.jpg');background-position: center 100px}
+  #slide2 .slide_content {position: relative;top: 15%;margin: auto;}
+  #slide3 {background-image: url('../images/slide3_m.jpg')}
+  #slide3 .slide_content {position: relative;top: 10%;}
+  #slide4 {background-image: url('../images/slide4_m.jpg')}
+  #slide4 .slide_content {position: relative;top: 15%;margin: auto;right: 0;text-align: center;}
+  #slide5 {background-image: url('../images/slide5_m.jpg')}
+  #slide5 .slide_content {position: relative;top: 16%;}
+  .slide h2 {font-size: 1.5em;}
+  .slide p {font-size: 1em;}
+}
